@@ -1,0 +1,9 @@
+product_name = "multi-agent-solutions"
+aws_region = "us-west-2"
+enable_databricks = false
+enable_snowflake = false
+databricks_catalog_owner = "REPLACE-WITH-SERVICE-PRINCIPAL"
+tags = { Owner = "REPLACE", CostCenter = "REPLACE", DataClassification = "Internal" }
+## Enable with enable_databricks=true to provision the managed-storage foundation.
+databricks_create_managed_storage = true
+## Do not also set databricks_catalog_storage_root when creating managed storage.

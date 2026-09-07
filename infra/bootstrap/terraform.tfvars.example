@@ -1,0 +1,3 @@
+aws_region       = "us-west-2"
+state_bucket_name = "REPLACE-WITH-GLOBALLY-UNIQUE-NAME"
+lock_table_name   = "multi-agent-solutions-terraform-locks"

@@ -1,0 +1,9 @@
+product_name              = "multi-agent-solutions"
+aws_region                = "us-west-2"
+enable_databricks         = true
+enable_snowflake          = true
+databricks_catalog_owner  = "connect@roqora.com"
+tags = { Owner = "Roqora", CostCenter = "agentic-platform", DataClassification = "Internal" }
+## Enable with enable_databricks=true to provision the managed-storage foundation.
+databricks_create_managed_storage = true
+## Do not also set databricks_catalog_storage_root when creating managed storage.
